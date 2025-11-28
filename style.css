@@ -69,15 +69,17 @@ main form input {
 }
 
 #btnExcluiPessoa {
-    background-color: rgba(255, 196, 196, 0.76);
+    background-color: #fafafa;
     padding: 6px 16px;
     border: 0;
     border-radius: 6px;
-    transition: 0.5s;
+    transition: 0.1s;
+    border: 1px solid rgba(0, 0, 0, 0.205);
 }
 
 #btnExcluiPessoa:hover {
-    background-color: #fafafa;
+    
+        background-color: rgb(255, 204, 204);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.178);
     border-radius: 16px;
 }
