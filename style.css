@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+
+    align-items: center;
+    padding: 40px 0;
+    height: 100vh;
+}
+
+#container {
+    width: 40%;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 24px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#container:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.200);
+    border-radius: 12px;
+    transition: 0.8s;
+}
+
+header h1 {
+    background-color: rgb(250, 250, 250);
+    padding: 8px 16px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+main form label {
+    font-weight: bold;
+}
+
+#criaPessoa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main form input {
+    padding: 4px 12px;
+}
+
+#respostaPessoa {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f6f6;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+#btnExcluiPessoa {
+    background-color: rgba(255, 196, 196, 0.76);
+    padding: 6px 16px;
+    border: 0;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+#btnExcluiPessoa:hover {
+    background-color: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.178);
+    border-radius: 16px;
+}

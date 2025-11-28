@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>CRUD de Pessoas</h1>
+        </header>
+        <main>
+            <form id="cadastroPessoa">
+                <section id="criaPessoa">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" required>
+                    <button type="submit" id="btnCriaPessoa">Salvar</button>
+                </section>
+                <section id="respostaPessoa">
+                    <ul>
+                        <li>Exemplo de resposta</li>
+                    </ul>
+                    <button type="submit" id="btnExcluiPessoa">Excluir</button>
+                </section>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
