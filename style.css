@@ -5,8 +5,7 @@
 }
 
 body {
-    background-color: rgb(252, 252, 252);
-
+    background-color: rgb(240, 240, 240);
     align-items: center;
     padding: 40px 0;
     height: 100vh;
@@ -30,7 +29,7 @@ body {
 }
 
 header h1 {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(236, 248, 255);
     padding: 8px 16px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -60,15 +59,23 @@ main form input {
 
 #respostaPessoa {
     display: flex;
-    gap: 10px;
+    gap: 50px;
+    flex-direction: column;
     align-items: center;
     padding: 10px;
     background-color: #f7f6f6;
     border-radius: 12px;
-    justify-content: space-between;
 }
 
-#btnExcluiPessoa {
+li {
+    background-color: #e6e6e63f;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.btnExcluiPessoa {
     background-color: #fafafa;
     padding: 6px 16px;
     border: 0;
@@ -77,9 +84,8 @@ main form input {
     border: 1px solid rgba(0, 0, 0, 0.205);
 }
 
-#btnExcluiPessoa:hover {
-    
-        background-color: rgb(255, 204, 204);
+.btnExcluiPessoa:hover {
+    background-color: rgb(255, 204, 204);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.178);
     border-radius: 16px;
 }
